@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Patel | Cyber Security Researcher & Developer</title>
+    <meta name="description" content="Portfolio of Abhay Patel, a B.Tech Cyber Security student and developer focused on ethical hacking, penetration testing, and secure software.">
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>ABHAY PATEL</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container visible" id="home">
+            <div class="hero-content">
+                <div class="badge">Available for Security Research</div>
+                <h1>Cyber Security <span>Expert</span> & Developer</h1>
+                <p class="description">
+                    B.Tech Cyber Security student specializing in ethical hacking, 
+                    penetration testing, and building secure-by-design applications. 
+                    Turning complex security challenges into robust digital solutions.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Let's Talk
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <!-- Photo of Abhay -->
+                    <img src="abhay.jpeg" alt="Abhay Patel Portrait">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="glass-card">
+                <h2><i class="fas fa-user-secret"></i> About Me</h2>
+                <div style="display: flex; gap: 2rem; align-items: center; margin-top: 1.5rem; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <p style="font-size: 1.1rem; color: var(--text-dim);">
+                            I am a passionate Cyber Security student pursuing my B.Tech, currently based in Gorakhpur, India. 
+                            My journey in technology is driven by a curiosity to understand how systems work—and how to make them unbreakably secure. 
+                            With a background in Python development and web technologies, I bridge the gap between 
+                            innovative development and rigorous security protocols.
+                        </p>
+                    </div>
+                    <div style="flex-basis: 300px; flex-grow: 0;">
+                        <img src="abhay2.jpeg" alt="Abhay at Capgemini" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 1px solid var(--border-color);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Academic Foundation</h2>
+            <div class="glass-card">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                    <div>
+                        <h3 style="color: var(--primary-color);">B.Tech in Cyber Security</h3>
+                        <p style="font-size: 1.1rem;">CGC Univerity</p>
+                        <p style="color: var(--text-dim);">Jhanjeri , Mohali - Punjab</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <p style="font-weight: 600;">2025 - 2029</p>
+                        <p class="badge">Current CGPA: 7.8/10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-terminal"></i> Programming</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-mask"></i> Cyber Security</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Kali Linux</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">OSINT</span>
+                        <span class="skill-tag">TryHackMe</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-tools"></i> Tools & Concepts</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Vulnerability Scanning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container">
+            <div class="glass-card">
+                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                <div style="margin-top: 2rem;">
+                    <div class="experience-item" style="margin-bottom: 2rem;">
+                        <h3 style="color: var(--primary-color);">Python Developer</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-dim);">Personal Projects | Aug 2025 - Present</p>
+                        <p style="margin-top: 0.5rem;">Leading custom design and implementation of security-focused scripts and automation tools.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 style="color: var(--primary-color);">Web Developer</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-dim);">Freelance | Mar 2025 - Present</p>
+                        <p style="margin-top: 0.5rem;">Delivering high-performance, responsive web applications with a focus on client security and clean UX.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Featured Work</h2>
+            <div class="projects-grid">
+                <div class="glass-card project-card">
+                    <i class="fas fa-mobile-alt" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>EduDesk App</h3>
+                    <p>An advanced educational platform built with Flutter and Firebase, featuring real-time data synchronization and secure user authentication.</p>
+                    <div class="project-links">
+                        <a href="#" class="skill-tag"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <i class="fas fa-database" style="font-size: 2rem; color: var(--secondary-color); margin-bottom: 1rem;"></i>
+                    <h3>Student Result Portal</h3>
+                    <p>A comprehensive result and fee management system using PHP and MySQL, designed with secure coding practices to protect sensitive student data.</p>
+                    <div class="project-links">
+                        <a href="#" class="skill-tag"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <i class="fas fa-car" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>TruthLens - WiFi Car</h3>
+                    <p>A hardware-software integration project for a hackathon. An ESP8266-powered WiFi car controlled via a custom web interface.</p>
+                    <div class="project-links">
+                        <a href="#" class="skill-tag"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <div class="glass-card" style="text-align: center;">
+                <h2>Get In Touch</h2>
+                <p style="margin: 1.5rem 0; color: var(--text-dim);">
+                    Interested in a collaboration or have a security challenge? 
+                    I'm always open to discussing new projects and creative ideas.
+                </p>
+                <div class="hero-btns" style="justify-content: center;">
+                    <a href="mailto:abhayrajpatel2109@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://wa.me/919336418393" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chatbot Patel UI -->
+        <div id="chatbot-toggle">
+            <i class="fas fa-robot"></i>
+        </div>
+
+        <div id="chatbot-container">
+            <div class="chat-header">
+                <img src="abhay.jpeg" alt="Patel AI">
+                <h4>Patel AI Assistant</h4>
+                <div class="chat-close"><i class="fas fa-times"></i></div>
+            </div>
+            <div id="chat-messages">
+                <div class="message bot">
+                    Hello! I am <strong>Patel</strong>, Abhay's AI assistant. I'm here to help you navigate his portfolio. How can I assist you today?
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="logo" style="justify-content: center;">
+                <i class="fas fa-shield-alt"></i>
+                <span>ABHAY PATEL</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2026 Abhay Patel | Cyber Security Researcher & Developer</p>
+            <p class="copyright">© 2025 Abhay Patel| Cyber Security Researcher & Developer</p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
