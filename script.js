@@ -161,3 +161,34 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') handleSend();
     });
 });
+// Certificate Popup
+
+const modal = document.getElementById("certificateModal");
+const modalImg = document.getElementById("certificateImage");
+
+document.querySelectorAll(".certificate-img").forEach(img => {
+
+    img.onclick = function () {
+
+        modal.style.display = "flex";
+        modalImg.src = this.src;
+
+    }
+
+});
+
+document.querySelector(".close-certificate").onclick = function () {
+
+    modal.style.display = "none";
+
+}
+
+modal.onclick = function (e) {
+
+    if (e.target == modal) {
+
+        modal.style.display = "none";
+
+    }
+
+}
